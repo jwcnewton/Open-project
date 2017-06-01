@@ -1,0 +1,50 @@
+/* You can add global styles to this file, and also import other style files */
+
+/****Variables****/
+$back1: url('img/back1.jpg');
+$back2: url('img/back2.jpg');
+$back3: url('img/back3.jpg');
+$back4: url('img/back4.jpg');
+
+/****General Styles****/
+html, body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+p {
+	margin: 0;
+	padding: 0;
+}
+/****parallax Styles****/
+
+.parallax {
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax1 {
+  background-image: $back1;
+}
+
+#parallax2 {
+  background-image: $back2;
+}
+
+#parallax3 {
+  background-image: $back3;
+}
+
+#parallax4 {
+  background-image: $back4;
+}
+
+.block {
+  width: 100%;
+  background-color: lightgrey;
+}
