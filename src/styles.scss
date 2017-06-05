@@ -17,6 +17,16 @@ p {
 	margin: 0;
 	padding: 0;
 }
+
+/****Nav bar styles****/
+
+.navbar {
+  // overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+}
 /****parallax Styles****/
 
 .parallax {
@@ -28,26 +38,26 @@ p {
     background-size: cover;
 }
 
-#parallax1 {
+#home {
   background-image: $back1;
 }
 
-#parallax2 {
+#about-us {
   background-image: $back2;
 }
 
-#parallax3 {
+#contact {
   background-image: $back3;
 }
 
-#parallax4 {
+#projects {
   background-image: $back4;
 }
 
 .block {
   width: 100%;
   background-color: lightgrey;
-	font-size: 1.4em;
+	font-size: 2em;
 	color: black;
 	text-align: center;
 	margin: auto;
@@ -56,7 +66,7 @@ p {
 
 .inner-wrap {
 	font-size: 2em;
-	color: black;
+	color: white;
 	text-align: center;
 	margin: auto;
 	padding: 4px;

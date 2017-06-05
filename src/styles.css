@@ -11,6 +11,12 @@ p {
   margin: 0;
   padding: 0; }
 
+/****Nav bar styles****/
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%; }
+
 /****parallax Styles****/
 .parallax {
   height: 100%;
@@ -20,22 +26,22 @@ p {
   background-repeat: no-repeat;
   background-size: cover; }
 
-#parallax1 {
+#home {
   background-image: url("img/back1.jpg"); }
 
-#parallax2 {
+#about-us {
   background-image: url("img/back2.jpg"); }
 
-#parallax3 {
+#contact {
   background-image: url("img/back3.jpg"); }
 
-#parallax4 {
+#projects {
   background-image: url("img/back4.jpg"); }
 
 .block {
   width: 100%;
   background-color: lightgrey;
-  font-size: 1.4em;
+  font-size: 2em;
   color: black;
   text-align: center;
   margin: auto;
@@ -43,7 +49,7 @@ p {
 
 .inner-wrap {
   font-size: 2em;
-  color: black;
+  color: white;
   text-align: center;
   margin: auto;
   padding: 4px; }
