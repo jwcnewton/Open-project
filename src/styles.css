@@ -15,7 +15,8 @@ p {
 .navbar {
   position: fixed;
   top: 0;
-  width: 100%; }
+  width: 100%;
+  margin-bottom: 2em; }
 
 /****parallax Styles****/
 .parallax {
@@ -28,6 +29,12 @@ p {
 
 #home {
   background-image: url("img/back1.jpg"); }
+  #home .container {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%; }
 
 #about-us {
   background-image: url("img/back2.jpg"); }
