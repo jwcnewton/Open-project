@@ -1,5 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 
+/* TODO - Need to decide on
+	- select range of sizes for all text, headings and links
+	-	size of sections and order of display
+	-	background images
+	-	fonts, size and color
+	-	nav and footer positions and color
+*/
+
 /****Variables****/
 $back1: url('img/back1.jpg');
 $back2: url('img/back2.jpg');
@@ -13,6 +21,7 @@ html, body{
 	margin: 0;
 	padding: 0;
 }
+
 p {
 	margin: 0;
 	padding: 0;
@@ -25,6 +34,15 @@ p {
   top: 0;
   width: 100%;
 	z-index: 10;
+}
+
+/****Nav bar styles****/
+#footer {
+	background: black;
+	font-size: 1.2rem;
+	color: white;
+	padding: 1.2em;
+	// margin-top: 1.2em;
 }
 
 /****parallax Styles****/
@@ -81,7 +99,7 @@ p {
 	padding: 4px;
 }
 
-/****id styled****/
+/****id styles****/
 #about-us {
 }
 
