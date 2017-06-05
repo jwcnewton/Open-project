@@ -20,18 +20,18 @@ p {
 
 /****Nav bar styles****/
 .navbar {
-  // overflow: hidden;
+  overflow: hidden;
   position: fixed;
   top: 0;
   width: 100%;
-	margin-bottom: 2em;
+	z-index: 10;
 }
 
 /****parallax Styles****/
 
 .parallax {
     height: 100%;
-    width: 100%;
+    max-width: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -50,18 +50,19 @@ p {
 	}
 }
 
-#about-us {
+#parallax2 {
   background-image: $back2;
 }
 
-#contact {
+#parallax3 {
   background-image: $back3;
 }
 
-#projects {
+#parallax4 {
   background-image: $back4;
 }
 
+/**** Class Styles ****/
 .block {
   width: 100%;
   background-color: lightgrey;
@@ -78,4 +79,14 @@ p {
 	text-align: center;
 	margin: auto;
 	padding: 4px;
+}
+
+/****id styled****/
+#about-us {
+}
+
+#contact {
+}
+
+#projects {
 }
