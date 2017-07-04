@@ -83,24 +83,40 @@ p {
 /**** Class Styles ****/
 .block {
   width: 100%;
+	height: auto;
   background-color: lightgrey;
 	font-size: 2em;
 	color: black;
 	text-align: center;
 	margin: auto;
-	padding: 4px;
+	padding: 1rem;
 }
 
 .inner-wrap {
 	font-size: 2em;
 	color: white;
 	text-align: center;
-	margin: auto;
-	padding: 4px;
+	padding: 1rem;
 }
 
 /****id styles****/
 #about-us {
+	p {
+		font-size: 1rem;
+	}
+
+	#left, #right {
+		border: 1px solid black;
+		border-radius: 3px;
+		margin: 1rem;
+		padding: 1rem;
+	}
+
+	.img-tag {
+		border: 1px solid black;
+		border-radius: 3px;
+	}
+
 }
 
 #contact {
