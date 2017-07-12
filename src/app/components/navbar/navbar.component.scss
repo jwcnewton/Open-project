@@ -1,8 +1,18 @@
+@import "../projects/projects.component.scss";
+
+@include keyframes(pulsate) {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@mixin pulsate {
+  @include animate(pulsate, 1.2s, infinite, normal);
+}
+
 /****Nav bar styles****/
-.navbar {
-  overflow: hidden;
-  position: fixed;
-  top: 0;
-  width: 100%;
-	z-index: 10;
+.under-score {
+  @include pulsate;
 }
